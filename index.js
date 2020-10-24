@@ -27,7 +27,7 @@ delaySwitch.prototype.getServices = function () {
     var informationService = new Service.AccessoryInformation();
 
     informationService
-        .setCharacteristic(Characteristic.Manufacturer, "Delay Manufacturer")
+        .setCharacteristic(Characteristic.Manufacturer, "Delay Switch")
         .setCharacteristic(Characteristic.Model, "Delay Model")
         .setCharacteristic(Characteristic.SerialNumber, this.uuid);
 
